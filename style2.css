@@ -90,3 +90,22 @@ label{
 div{
     display: inline-block;
 }
+
+.footer {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    border-top-left-radius: 0.5rem ;
+    border-top-right-radius: 0.5rem;
+    
+}
+
+.footer .link{
+    color: var(--primary-color);
+    
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
