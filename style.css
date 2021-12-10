@@ -14,7 +14,7 @@ body {
 
 .navigation {
     background-color: var(--secondary-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 1rem 1rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem ;
@@ -22,10 +22,71 @@ body {
 }
 .navigation .nav-brand{
     font-weight: bold;
+    color: var(--primary-color);
 } 
 
 .navigation .link-active
 {
     font-weight: bold;
+    color: var(--primary-color);
 
+}
+
+.link {
+    
+    text-align: center;
+    max-width: 140px;
+    margin:  auto;
+    color: var(--primary-color);
+    
+    
+    
+}
+.navigation .nav-pills
+{
+    text-align: right;
+    padding: 0.5rem 1rem ;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
+    color: var(--primary-color);
+
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.container-centre{
+
+    text-align: center;
+    margin: auto;  
+}
+
+label{
+    display: inline-block;
+    
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+    color: var(--primary-color);
+}
+
+.formItem {
+    display: block;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
 }
